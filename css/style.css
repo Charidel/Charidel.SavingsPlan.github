@@ -15,10 +15,34 @@ Global Styles and UI Components
     padding: 1rem;
 }
 
+/********************************
+Typography
+**********************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Optional: Add letter spacing to all headings */
+    letter-spacing: -0.05rem;
+    /* Optional: Adjust font-weight to all headings */
+    font-weight: 700;
+}
+
+h2 {
+    /* Optional: Adjust font-size of heading 2 */
+    font-size: 2rem;
+}
+
+div {
+    text-align: justify;
+  }
+
 footer {
     background-color: var(--bs-primary);
     color: var(--bs-white);
-    text-align: center;
+    text-align: middle;
 }
 
 footer .footer-social {
@@ -33,11 +57,11 @@ footer-social {
 
 .hero {
     background: url(../Images/background.png);
-    background-size: cover;
-    background-position: center;
+    background-size: 10;
+    background-position: full;
     color:
         var:black;
-    height: 75vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
